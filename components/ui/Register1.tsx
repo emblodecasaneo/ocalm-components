@@ -101,13 +101,15 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         padding: 40,
+        borderWidth:.6,
+        borderColor:'#adb5bd',
         backgroundColor: 'white',
     },
     title: {
         fontSize: 24,
         fontWeight: '500',
         textAlign: 'center',
-        color: '#00a6fb',
+        //color: '#00a6fb',
         marginBottom: 30,
     },
     sousTitle: {
