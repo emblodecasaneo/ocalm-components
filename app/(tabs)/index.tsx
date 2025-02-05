@@ -2,6 +2,7 @@ import { Image, StyleSheet, Platform } from 'react-native';
 
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import ProductList from '@/components/ui/ProductList';
+import NewArivalCard from '@/components/ui/NewArivalCard';
 
 export default function HomeScreen() {
   return (
@@ -13,7 +14,7 @@ export default function HomeScreen() {
           style={styles.reactLogo}
         />
       }>
-       <ProductList/>
+       <NewArivalCard/>
       
     </ParallaxScrollView>
   );
